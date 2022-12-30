@@ -1,10 +1,102 @@
-.div-style:hover {
-  background-color: #cc3636;
-}/*# sourceMappingURL=contact.css.map */
-.section1{
-  width: 60%;
-  text-align: center;
+body {
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navigation {
+  display: flex;
+
+  background-color: black;
+
+
+  justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
+
   margin-bottom: 50px;
+
+
+
+}
+
+
+@media screen and (max-width:768px) {
+  .navigation {
+      flex-direction: column;
+      /* width: 500px; */
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+
+  }
+
+}
+
+img {
+  width: 100px;
+
+  height: 80px;
+  padding: 1px;
+  border-radius: 8px;
+}
+
+.nav-item,
+.h2:hover {
+
+
+  background-color: red;
+  color: aliceblue;
+
+  text-decoration: none;
+  width: fit-content;
+  border-radius: 5px;
+
+}
+
+
+.style-footer {
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+
+
+}
+
+@media screen and (max-width:768px) {
+
+  .style-footer {
+      flex-direction: column;
+
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+
+
+  }
+
+
+
+
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+
+}
+.section1 {
+  text-align: center;
 }
