@@ -152,13 +152,16 @@ ul {
 }
 
 #animate1 {
+    
     border: 2px solid aliceblue;
     animation-name: animate1;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    margin: 10px;
 
-    height: 350px;
-    width: 500px;
+
+    width: 350px;
+    height: 220px;
 }
 
 @keyframes animate1 {

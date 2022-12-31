@@ -5,7 +5,7 @@ body{
     margin: 0;
 }
 
-.navigation123 {
+.div1 {
     display: flex;
     /* border: 2px solid teal; */
     background-color: black;
@@ -23,13 +23,13 @@ body{
     margin-right: auto;
 }
 
-.navigation123 img {
+.div1 img {
     border-radius: 8px;
     width: 150px;
 }
 
 @media screen and (max-width:768px) {
-    .navigation123 {
+    .div1 {
         flex-direction: column;
        
        
@@ -40,7 +40,7 @@ body{
 
 }
 
-.nav-item123,
+.item123,
 .h2:hover {
     /* padding-left: 50px; */
     /* border: 2px solid black; */
@@ -48,25 +48,32 @@ body{
     /* justify-content: space-evenly; */
     /* margin-top: 25px; */
 
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     color: aliceblue;
     /* text-align: center; */
     text-decoration: none;
     /* width: fit-content; */
     border-radius: 5px;
+    justify-content: space-around;
 }
 .style-section1{
     display: flex;
+    box-shadow: -10px 0 0 4px gray;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
 }
 
 .style-section1-div {
     display: flex;
-    /* border: 2px solid black; */
+    border: 2px solid black;
 
     align-items: center;
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
+    /* margin: 30px; */
+    
 }
 
 .style-section1-div1 {
@@ -99,8 +106,8 @@ body{
 }
 
 #heading1 {
-    color: rgb(26, 18, 11);
-    text-shadow: 2px 3px 4px aqua;
+    color: #65647C;
+    text-shadow: 2px 3px 4px #b0bc2f;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
@@ -219,8 +226,8 @@ body{
 }
 
 #heading2 {
-    color: #85586F;
-    text-shadow: 2px 3px 4px #4425cc;
+    color: #65647C;
+    text-shadow: 2px 3px 4px #b0bc2f;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -338,7 +345,7 @@ body{
 }
 
 #heading3 {
-    color: #23af70;
+    color: #65647C;
     text-shadow: 2px 3px 4px #b0bc2f;
     margin-top: 20px;
     margin-bottom: 20px;
