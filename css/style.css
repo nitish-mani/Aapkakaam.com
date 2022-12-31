@@ -158,6 +158,8 @@ ul {
     animation-duration: 10s;
     animation-iteration-count: infinite;
     margin: 10px;
+    text-align: center;
+    align-items: center;
 
 
     width: 350px;
