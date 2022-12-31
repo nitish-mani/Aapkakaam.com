@@ -66,7 +66,7 @@ body{
 
 .style-section1-div {
     display: flex;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
     align-items: center;
     justify-content: space-around;
@@ -89,7 +89,7 @@ body{
 
 
 .style-section1 img {
-    width: 220px;
+    width: 300px;
     height: 180px;
     border-radius: 8px;
     margin: 10px;
@@ -219,7 +219,7 @@ body{
 
 
 .section2 img {
-    width: 220px;
+    width: 300px;
     height: 180px;
     border-radius: 8px;
     margin: 10px;
